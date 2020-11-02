@@ -1,0 +1,5 @@
+# -*- coding: cp1254 -*-
+a = raw_input("Bir metin girin: ")
+b = input("Bir sayý girin: ")
+c = a*b
+print c

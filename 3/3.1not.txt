@@ -1,0 +1,49 @@
+Atama oparatörleri
+<
+>
+==
+<=
+>=
+!=
+
+not((x>3)or(y<4))
+
+True
+False
+
+While ():
+For :
+
+def --> fonksiyon tanýmýnýn baþlangýcý
+def isim ( ):  -> fonksiyona deðer verip iþlem yaptýrmak istersek () içine deðiþken giriyoruz
+def isim (p1,p2,p3): -> istediðimiz kadar parametre verebiliriz
+
+
+Ödev
+sözlüðün bir anahtarý var ör x ['A'] = 'Armut' buna elmayýda ekle 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def islem (s1,s2):
+   topla = s1 + s2
+   cikar = s1 - s2
+   carp = s1 * s2
+   bol = s1 / s2
+s1 = input ("1. sayiyi giriniz")
+s2 = input ("2. sayiyi giriniz")
+
+top,cik,car,bo = islem(s1,s2)
+print top

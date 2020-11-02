@@ -1,0 +1,50 @@
+# -*- coding: cp1254 -*-
+sd = 0
+sy = 0
+sb = 0
+
+td = 0
+ty = 0
+tb = 0
+
+fd = 0
+fy = 0
+fb = 0
+
+def 
+
+
+sd = input("Sosya Bilimler sýnavýndaki doðru sayýnýzý giriniz: ")
+sy = input("Sosya Bilimler sýnavýndaki doðru sayýnýzý giriniz: ")
+
+td = input("Türkçe sýnavýndaki doðru sayýnýzý giriniz: ")
+ty = input("Türkçe sýnavýndaki doðru sayýnýzý giriniz: ")
+
+fd = input("Fen Bilimleri sýnavýndaki doðru sayýnýzý giriniz: ")
+fy = input("Fen Bilimleri sýnavýndaki doðru sayýnýzý giriniz: ")
+   
+if 120 > (sd+sy):
+   sb = 120 - (sd+sy)
+else:
+   print "Hatalý giriþ lütfen tekrar giriniz"
+   sd = input("Sosya Bilimler sýnavýndaki doðru sayýnýzý giriniz: ")
+   sy = input("Sosya Bilimler sýnavýndaki doðru sayýnýzý giriniz: ")
+
+if 120 > (td+ty):
+   sb = 120 - (td+ty)
+else:
+   print "Hatalý giriþ lütfen tekrar giriniz"
+   td = input("Türkçe sýnavýndaki doðru sayýnýzý giriniz: ")
+   ty = input("Türkçe sýnavýndaki doðru sayýnýzý giriniz: ")
+
+if 120 > (fd+fy):
+   sb = 120 - (fd+fy)
+else:
+   print "Hatalý giriþ lütfen tekrar giriniz"
+   fd = input("Sosya Bilimler sýnavýndaki doðru sayýnýzý giriniz: ")
+   fy = input("Sosya Bilimler sýnavýndaki doðru sayýnýzý giriniz: ")   
+   
+print sd,sy,sb
+   
+
+
